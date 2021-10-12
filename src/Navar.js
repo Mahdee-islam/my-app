@@ -3,9 +3,11 @@ const Navbar = () => {
         <nav className="navbar">
             <h1>Dojo Blog</h1>
             <div className="links">
-                <a href="/">Home</a>
+                <a href="/" style={{
+                    margin: "40px auto"
+                }}>Home</a>
                 <a href="/create" style ={{
-                    color:'white',
+                    color:'#fff',
                     backgroundColor:'#f1356d',
                     borderRadius:'8px'
                 }}
